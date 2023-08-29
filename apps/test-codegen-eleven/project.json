@@ -70,23 +70,23 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "browserTarget": "razroo-angular-starter:build"
+        "browserTarget": "test-codegen-eleven:build"
       }
     },
     "lint": {
       "executor": "@nx/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "apps/razroo-angular-starter/src/**/*.ts",
-          "apps/razroo-angular-starter/src/**/*.html"
+          "apps/test-codegen-eleven/src/**/*.ts",
+          "apps/test-codegen-eleven/src/**/*.html"
         ]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/razroo-angular-starter"],
+      "outputs": ["{workspaceRoot}/coverage/apps/test-codegen-eleven"],
       "options": {
-        "jestConfig": "apps/razroo-angular-starter/jest.config.ts",
+        "jestConfig": "apps/test-codegen-eleven/jest.config.ts",
         "passWithNoTests": true
       }
     }

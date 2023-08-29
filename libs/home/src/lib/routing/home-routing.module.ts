@@ -1,7 +1,8 @@
+import { LayoutComponent } from '@test-codegen-eleven/common/common-ui';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
-import { LayoutComponent } from '@test-codegen-eleven/common/ui';
+
 
 const homeRoutes: Routes = [
   {
