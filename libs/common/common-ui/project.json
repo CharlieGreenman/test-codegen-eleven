@@ -1,5 +1,5 @@
 {
-  "name": "common",
+  "name": "common-ui",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/common/{name}/src",
   "prefix": "test-codegen-eleven",
