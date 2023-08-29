@@ -1,6 +1,7 @@
 import { Component, OnInit, NgModule, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { faBell, faQuestionCircle, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,6 +29,7 @@ export class GlobalHeaderComponent implements OnInit {
   imports: [
     CommonModule,
     MatToolbarModule,
+    MatIconModule,
     FontAwesomeModule
   ],
   declarations: [GlobalHeaderComponent],
