@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-codegen-eleven/home": ["libs/home/src/index.ts"],
+      "@test-codegen-eleven/common/common-ui": ["libs/common/common-ui/src/index.ts"],
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
